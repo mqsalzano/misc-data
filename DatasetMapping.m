@@ -1,38 +1,3 @@
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-%This code was developed for the Big Cush study with Brooks.  It joints the
-%Excel file that holds the perception and mechanical properties data with
-%biomechanical data calculated in and exported from Visual3D.  The code
-%matches up the two data sets by the full shoe name, subject's initials,
-%test shoe (name, generation, SPAM), and test season + year.  
-%
-%This code is broken up into 3 sections so that any section can be re-run
-%without having to run the whole thing again (especially section 2).
-%Descriptions of the sections are below.
-%
-%Section 1:  Locates the Excel file with the mechancial and perception
-%data and pulls it into MatLab.  From there, columns of interest are
-%selected.  New columns are also created for initials, test shoe name +
-%generation, and test season.  Each of these columns is created from two
-%additional columns in the Excel file. All of the columns of interest are
-%then joined into a new table.
-%
-%Section 2: This section pulls the biomechanical data (from Visual3D) into
-%MatLab and pulls out the shoe name, subject's initials, test shoe (name,
-%generation, test season), and all variables of interest from the data.
-%NOTE:  The naming of shoes in the file names was highly irregular, so this
-%section of the data goes through all of the naming errors and corrects
-%them.  This is needed to match up this data with the Excel Data.  A few
-%extra lines are included in comments that aided in figuring out the
-%correct versions of the errors.  Since each season of testing has its own
-%folder, it loops through each folder before moving onto the next season's
-%folder.  As a result, a structure is created that contains 4 tables - one
-%for each season that contains shoe/subject information and biomechanical
-%variables.
-%
-%Section 3: This section creates a combined table from all seasons.  The
-%code then joins this table with the perception/mechanical data table by
-%matching up rows that contain the same: Full Shoe Name, Subject's
-%Initials, Test Shoe SPAM, and Test Season.
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
