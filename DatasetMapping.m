@@ -34,6 +34,7 @@
 %matching up rows that contain the same: Full Shoe Name, Subject's
 %Initials, Test Shoe SPAM, and Test Season.
 
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
 %%
 %Section 1:
@@ -86,8 +87,10 @@ UnqShoeParameters = ModXL(xl_f2u, :);
 clearvars -except newXL ExcelShoeListUnq ShoeParameters UnqShoeParameters xl_table xl_f2u xl_u2f ModXL
 
 save('BigCushExcel.mat')
-%%
 
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%
+%Section 2
 
 ShoeListSeason = struct;
 InitialsListSeason = struct;
@@ -271,8 +274,9 @@ end %this is the end of the for-loop that goes through each season of testing
 
 
 
-
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %%
+%Section 3
 %create a combined table from all test seasons
 
 seasons = fieldnames(MATfiledata);
