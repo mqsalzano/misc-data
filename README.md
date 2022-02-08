@@ -33,3 +33,9 @@ This code was built in R to test if time of day for a run influenced specific me
 Code file #3: WatchData_LDA_PCA.R
 
 This code was built in R to see if types of runners (specified from questions in a survey) can be identified from running metrics.  This code also contains a portion to see if sub-groups can be distinguied within a given type of runner.
+
+### Biomechanical Analysis of Runner Types
+
+Code: BmchLDA.R
+
+This code was an attempt to types of runners (established from goals and/or volume of running) from biomechanical variables using a linear discriminant analysis.
