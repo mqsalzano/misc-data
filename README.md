@@ -22,6 +22,14 @@ Section 3: This section creates a combined table from all seasons.  The code the
 
 ### GPS Watch Data Analysis
 
-Main code: WatchDataAnalysisCode.ipynb
+Code file #1: WatchDataAnalysisCode.ipynb
 
-This code used Python and Jupyter Notebooks to merge several datasets and perform some exploratory data analysis.  This code is still in progress and needs cleaning.
+This code used Python and Jupyter Notebooks to merge several datasets and perform some exploratory data analysis, using histograms and simple linear regression.  Code files is still in progress and needs cleaning.
+
+Code file #2: WatchData_LinearMixedModel.R
+
+This code was built in R to test if time of day for a run influenced specific metrics of a run.  Code builds several linear mixed models to answer the question, with various co-factors (e.g. average velocity of run, duration of run, type of runner).
+
+Code file #3: WatchData_LDA_PCA.R
+
+This code was built in R to see if types of runners (specified from questions in a survey) can be identified from running metrics.  This code also contains a portion to see if sub-groups can be distinguied within a given type of runner.
