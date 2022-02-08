@@ -38,4 +38,4 @@ This code was built in R to see if types of runners (specified from questions in
 
 Code: BmchLDA.R
 
-This code was an attempt to types of runners (established from goals and/or volume of running) from biomechanical variables using a linear discriminant analysis.
+This code was an attempt to types of runners (established from goals and/or volume of running) from biomechanical variables using a linear discriminant analysis.  Several LDAs were run to see if runner types could be distinguished between: all 4 types, 3 types (excluding the least consistent runner group), and various pairs of types.
